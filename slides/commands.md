@@ -35,3 +35,17 @@ Enough about the shell it self. To be able to do something on the system you sho
 First of all you might want to look at the demos where I show you how to get a Ubuntu- and centOS-server up and running with vagrant. This will give you playing grounds when testing your commands. In the demo video I also talk about the man-command and something about the built-in text editors you can find in the Linux systems.
 
 You find the cheat sheet here: https://files.fosswire.com/2007/08/fwunixref.pdf, it is CC-licensed from https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/
+
+## Exercises
+After doing your homework with the commands and looking at the demo video you can try your knowledge out by doing this exercises:
+
+1. In your home directory, create a directory called "dump" with a file called "test.txt". Open this file with an editor and write "I was here" in it.
+2. Find a command that opens the file you created and write its content out to the standard output (eg. writing it out in your shell)
+3. Find a command that appends the row "I was here to" to the file "test.txt"
+4. Create a new folder called "dump2" at the same level as the directory "dump"
+5. Find a command that makes a copy of the file "test.txt", that will get the name "test2.txt" and place it in the newly created directory ("dump2")
+6. Remove the directory "dump" (including the "test.txt"-file)
+7. In the "dump2"-directory rename the file test2.txt to test.txt
+8. Create a new file called ".config". Create a gzip-file with these two files (test.txt and .config)
+9. Clean up en remove the "dump2"-directory and it contents.
+10. List your current active processes (you probably only have two)
