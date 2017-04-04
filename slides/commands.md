@@ -36,6 +36,41 @@ First of all you might want to look at the demos where I show you how to get a U
 
 You find the cheat sheet here: https://files.fosswire.com/2007/08/fwunixref.pdf, it is CC-licensed from https://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/
 
+## stdin, stdout, stderr and pipes
+One thing to know about when executing commands/programs in the bash-terminal is standard streams. In computer programming are standard streams pre-connected input and output. The **standard output (stdout)** is a place that a program can send information (like text). The program never know where this information goes. It could be a ordinary file, a printer or on the screen.
+
+The **standard input(stdin)** is a place where a program gets information from. It never knows from where. It could be from a file, from the keyboard or from a output from another program. This makes it possible to pipe commands which means that you can combine to commands where the first program execution produces a stdout that the next program takes as stdin and processes. This goes well with the philosophy in Unix where you should have small programs with minimal features that are good at one thing. An example of this could be:
+
+`ls -a | grep ba`
+
+This list all files, which produces a stdout and by using the pipe-character (|) is sent to the grep command that takes it as stdin and outputs all files beginning with "ba".
+
+`ps | grep bash | cut -d ' ' -f 2`
+
+Of course you could pipe several times. The above command uses "ps" to list all processes on the system, filter them with "grep" to just show the bash process and use cut to just show the processID.
+
+The **standard error (stderr)** is where eventual error messages are sent to.
+
+The stdin, stdout and stderr are known as **file descriptors**. So when a program is executed these three file descriptors opens. 0 for stdin, 1 for stdout and 3 for stderr. We can use this with **redirection operators**. Here are some examples.
+
+```bash
+# writes the output of the /proc/cpuinfo into a file named cpu.txt
+# it will be override
+cat /proc/cpuinfo > cpu.txt
+
+# The same but it will append info at the end of the file
+cat /proc/cpuinfo >> cpu.txt
+
+# Redirect the stderr to the file
+cat /proc/nofile 2> cpu.txt
+
+# reversed - on the grep command we redirect stdin from the filename
+grep 'model name' < cpu.txt
+
+# redirect stdout to cpu.txt and if there are a stderr to error.txt
+cat /proc/nofile 1> cpu.txt 2> error.txt
+```
+
 ## Exercises
 After doing your homework with the commands and looking at the demo video you can try your knowledge out by doing this exercises:
 
@@ -46,6 +81,64 @@ After doing your homework with the commands and looking at the demo video you ca
 5. Find a command that makes a copy of the file "test.txt", that will get the name "test2.txt" and place it in the newly created directory ("dump2")
 6. Remove the directory "dump" (including the "test.txt"-file)
 7. In the "dump2"-directory rename the file test2.txt to test.txt
-8. Create a new file called ".config". Create a gzip-file with these two files (test.txt and .config)
-9. Clean up en remove the "dump2"-directory and it contents.
-10. List your current active processes (you probably only have two)
+8. Create a new file called ".config". Create a gzip-file in your home directory with these two files (test.txt and .config) and name it archive.tar.gz
+9. Remove the "dump2"-directory and it contents and remove the newly created compressed file
+10. Use the netstat command to list all ESTABLISHED tcp ports in your system
+11. Write a oneline-command that clones one github repository and creates a tar with Bzip compression with that git-folder. You may need to install "git" first using `sudo apt-get install git` or `sudo yum install git`
+
+### Solution suggestions to above exercise
+1.
+```bash
+# Go to home directory and make a directory
+cd ~ && mkdir dump
+touch dump/test.txt
+# Use nano or vi for editing the file
+```
+2.
+```bash
+# whole file
+cat dump/test.txt
+# alternatives
+less dump/test.txt
+tail dump/test.txt
+head dump/test.txt
+```
+3.
+```bash
+echo 'I was here to' >> dump/test.txt
+```
+4.
+```bash
+cd ~ && mkdir dump2
+```
+5.
+```bash
+cp dump/test.txt dump2/test2.txt
+```
+6.
+```bash
+rm -r dump
+```
+7.
+```bash
+mv dump2/test2.txt dump2/test.txt
+```
+8.
+```bash
+cd dump2
+touch .config
+tar czf ../archive.tar.gz .config test.txt
+```
+9.
+```bash
+cd ~
+tar -xzvf archive.tar.gz -C .
+```
+10.
+```bash
+netstat -atn | grep ESTABLISHED
+```
+11.
+```bash
+git clone https://github.com/1dv031/syllabus && tar -cjvf backup.tar.bz2 syllabus -C .
+```
