@@ -28,7 +28,7 @@ We will be concentration on the bash shell since it is the default shell on most
 - .bash_logout - Executes when user logs out
 
 More about this: http://mywiki.wooledge.org/DotFiles
-Of course you can pimp your bash. There are many communities about this. Many developers use the Z Shell(zsh) with the "oh my zsh"-configurations: https://github.com/robbyrussell/oh-my-zsh
+Of course you can pimp your bash. There are many communities about this. Many developers use the Z Shell(zsh) with the "oh my zsh"-configurations for example: https://github.com/robbyrussell/oh-my-zsh
 
 ## Linux commands
 Enough about the shell it self. To be able to do something on the system you should be able to execute some commands. You have probably done this before by executing the cd-command for changing directory or the ls-command for listing files in the current directory. As said before this module is not going through all different commands. Some of them will be used in the demo videos but to understand them you have to do your own study. To help you along we will give you a link to a cheat sheet that have the most common commands written down. You should go through them (read about them with the man-command) and get use to them.
