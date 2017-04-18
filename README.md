@@ -14,28 +14,27 @@ This content is concentrated to server versions of the Ubuntu distributions.
 The student should get an understanding of the Linux system and its characteristics. The student will also get some experience in using bash commands, text editors and bash scripting.
 
 ## About this learning object
-[Video on youtube](https://www.youtube.com/Cb5ij5VMyzk)
+[Video on youtube](https://www.youtube.com/Cb5ij5VMyzk) - Explains this learning object
 
 ## Linux - an introduction ([slides](https://rawgit.com/CS-LNU-Learning-Objects/linux/master/slides/introduction.html))
 [Video on youtube](https://www.youtube.com/K81c6R2COmI)
 
 ## Using the terminal, text editors
-
-[Video on youtube](https://www.youtube.com/623APOnLtJE)
+[Video on youtube](https://www.youtube.com/623APOnLtJE) - Showing how to work with the shell and some of its text editors
 
 ## The shell
 [This text document](./commands.md) gives an introduction to a linux systems shell. It will also link to a Cheat Sheet with different commands you should study. At the end of the text there are some exercises to practice on.
 
-#### Resources
+#### Resources on the text editors
   * https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
   * https://www.linux.com/learn/vim-101-beginners-guide-vim
 
 ## Package management
-[Video on youtube](https://www.youtube.com/ekVqif-vKK0)
+[Video on youtube](https://www.youtube.com/ekVqif-vKK0) - A short video how to update your system and how to install new packages/applications
 
 ## Users, Permissions, Groups
   Be sure to [read this article](https://www.linode.com/docs/tools-reference/linux-users-and-groups) to get the theoretical view of how Linux is handling files, directories, users and permissions
-  [Video on youtube](https://www.youtube.com/embed/WKNCQAMzBV0)
+  [Video on youtube](https://www.youtube.com/embed/WKNCQAMzBV0) - Some example of user/groups handling in Linux
 
 ## Introduction to Bash scripting
   To come...
