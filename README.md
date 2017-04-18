@@ -17,7 +17,7 @@ The student should get an understanding of the Linux system and its characterist
 [Video on youtube](https://www.youtube.com/Cb5ij5VMyzk) - Explains this learning object
 
 ## Linux - an introduction ([slides](https://rawgit.com/CS-LNU-Learning-Objects/linux/master/slides/introduction.html))
-[Video on youtube](https://www.youtube.com/K81c6R2COmI)
+[Video on youtube](https://www.youtube.com/K81c6R2COmI) - A short introduction to Linux, it's history and use today
 
 ## Using the terminal, text editors
 [Video on youtube](https://www.youtube.com/623APOnLtJE) - Showing how to work with the shell and some of its text editors
