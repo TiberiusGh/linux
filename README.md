@@ -13,28 +13,28 @@ This content is concentrated to server versions of the Ubuntu distributions.
 ## Goal
 The student should get an understanding of the Linux system and its characteristics. The student will also get some experience in using bash commands, text editors and bash scripting.
 
-## About this learning object (video)
-<iframe width="422" height="240" src="https://www.youtube.com/embed/Cb5ij5VMyzk" frameborder="0" allowfullscreen></iframe>
+## About this learning object
+[Video on youtube](https://www.youtube.com/embed/Cb5ij5VMyzk)
 
 ## Linux - an introduction ([slides](https://rawgit.com/CS-LNU-Learning-Objects/linux/master/slides/introduction.html))
-<iframe width="422" height="240" src="https://www.youtube.com/embed/K81c6R2COmI" frameborder="0" allowfullscreen></iframe>
+[Video on youtube](https://www.youtube.com/embed/K81c6R2COmI)
 
 ## Using the terminal, text editors
 
-<iframe width="422" height="240" src="https://www.youtube.com/embed/623APOnLtJE" frameborder="0" allowfullscreen></iframe>
+[Video on youtube](https://www.youtube.com/embed/623APOnLtJE)
 
-#### [Linux commands](./commands.md)
+#### [Linux commands](./commands.md) - Text on GitHub
 
 #### Resources
   * https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
   * https://www.linux.com/learn/vim-101-beginners-guide-vim
 
 ## Package management
-<iframe width="422" height="240" src="https://www.youtube.com/embed/ekVqif-vKK0" frameborder="0" allowfullscreen></iframe>
+[Video on youtube](https://www.youtube.com/embed/ekVqif-vKK0)
 
 ## Users, Permissions, Groups
   Be sure to [read this article](https://www.linode.com/docs/tools-reference/linux-users-and-groups) to get the theoretical view of how Linux is handling files, directories, users and permissions
-  <iframe width="422" height="240" src="https://www.youtube.com/embed/WKNCQAMzBV0" frameborder="0" allowfullscreen></iframe>
+  [Video on youtube](https://www.youtube.com/embed/WKNCQAMzBV0)
 
 ## Introduction to Bash scripting
   To come...
