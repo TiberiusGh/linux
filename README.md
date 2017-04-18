@@ -6,7 +6,7 @@ This work i licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2
 This work is intended for the students in the [UDM - Utvecklare och drift av mjukvarusystem](https://coursepress.lnu.se/program/utveckling-och-drift-av-mjukvarusystem/student/) and the [WP - Webbprogrammerare](http://webbprogrammerare.se) programs.
 This is not a complete course in Linux but just an introduction for program students at [Linnaeus University](www.lnu.se), Kalmar, Sweden
 
-** All video recording will be in Swedish **
+**All video recording will be in Swedish**
 
 This content is concentrated to server versions of the Ubuntu distributions.
 
@@ -14,23 +14,24 @@ This content is concentrated to server versions of the Ubuntu distributions.
 The student should get an understanding of the Linux system and its characteristics. The student will also get some experience in using bash commands, text editors and bash scripting.
 
 ## About this learning object
-[Video on youtube](https://www.youtube.com/embed/Cb5ij5VMyzk)
+[Video on youtube](https://www.youtube.com/Cb5ij5VMyzk)
 
 ## Linux - an introduction ([slides](https://rawgit.com/CS-LNU-Learning-Objects/linux/master/slides/introduction.html))
-[Video on youtube](https://www.youtube.com/embed/K81c6R2COmI)
+[Video on youtube](https://www.youtube.com/K81c6R2COmI)
 
 ## Using the terminal, text editors
 
-[Video on youtube](https://www.youtube.com/embed/623APOnLtJE)
+[Video on youtube](https://www.youtube.com/623APOnLtJE)
 
-#### [Linux commands](./commands.md) - Text on GitHub
+## The shell
+[This text document](./commands.md) gives an introduction to a linux systems shell. It will also link to a Cheat Sheet with different commands you should study. At the end of the text there are some exercises to practice on.
 
 #### Resources
   * https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/
   * https://www.linux.com/learn/vim-101-beginners-guide-vim
 
 ## Package management
-[Video on youtube](https://www.youtube.com/embed/ekVqif-vKK0)
+[Video on youtube](https://www.youtube.com/ekVqif-vKK0)
 
 ## Users, Permissions, Groups
   Be sure to [read this article](https://www.linode.com/docs/tools-reference/linux-users-and-groups) to get the theoretical view of how Linux is handling files, directories, users and permissions
