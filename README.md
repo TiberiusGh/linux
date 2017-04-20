@@ -14,13 +14,13 @@ This content is concentrated to server versions of the Ubuntu distributions.
 The student should get an understanding of the Linux system and its characteristics. The student will also get some experience in using bash commands, text editors and bash scripting.
 
 ## About this learning object
-[Video on youtube](https://www.youtube.com/Cb5ij5VMyzk) - Explains this learning object
+[Video on youtube](https://www.youtube.com/watch?v=Cb5ij5VMyzk) - Explains this learning object
 
 ## Linux - an introduction ([slides](https://rawgit.com/CS-LNU-Learning-Objects/linux/master/slides/introduction.html))
-[Video on youtube](https://www.youtube.com/K81c6R2COmI) - A short introduction to Linux, it's history and use today
+[Video on youtube]https://www.youtube.com/watch?v=K81c6R2COmI) - A short introduction to Linux, it's history and use today
 
 ## Using the terminal, text editors
-[Video on youtube](https://www.youtube.com/623APOnLtJE) - Showing how to work with the shell and some of its text editors
+[Video on youtube](https://www.youtube.com/watch?v=623APOnLtJE) - Showing how to work with the shell and some of its text editors
 
 ## The shell
 [This text document](./commands.md) gives an introduction to a linux systems shell. It will also link to a Cheat Sheet with different commands you should study. At the end of the text there are some exercises to practice on.
@@ -34,7 +34,7 @@ The student should get an understanding of the Linux system and its characterist
 
 ## Users, Permissions, Groups
   Be sure to [read this article](https://www.linode.com/docs/tools-reference/linux-users-and-groups) to get the theoretical view of how Linux is handling files, directories, users and permissions
-  [Video on youtube](https://www.youtube.com/embed/WKNCQAMzBV0) - Some example of user/groups handling in Linux
+  [Video on youtube](https://www.youtube.com/watch?v=WKNCQAMzBV0) - Some example of user/groups handling in Linux
 
 ## Introduction to Bash scripting
   A short introduction - [Video](https://www.youtube.com/watch?v=aGQQBefu5Uc)
