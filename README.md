@@ -34,7 +34,8 @@ The student should get an understanding of the Linux system and its characterist
 
 ## Users, Permissions, Groups
   Be sure to [read this article](https://www.linode.com/docs/tools-reference/linux-users-and-groups) to get the theoretical view of how Linux is handling files, directories, users and permissions
-  [Video on youtube](https://www.youtube.com/watch?v=WKNCQAMzBV0) - Some example of user/groups handling in Linux
+
+[Video on youtube](https://www.youtube.com/watch?v=WKNCQAMzBV0) - Some example of user/groups handling in Linux
 
 ## Introduction to Bash scripting
   A short introduction - [Video](https://www.youtube.com/watch?v=aGQQBefu5Uc)
