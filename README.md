@@ -30,7 +30,7 @@ The student should get an understanding of the Linux system and its characterist
   * https://www.linux.com/learn/vim-101-beginners-guide-vim
 
 ## Package management
-[Video on youtube](https://www.youtube.com/ekVqif-vKK0) - A short video how to update your system and how to install new packages/applications
+[Video on youtube](https://www.youtube.com/watch?v=ekVqif-vKK0) - A short video how to update your system and how to install new packages/applications
 
 ## Users, Permissions, Groups
   Be sure to [read this article](https://www.linode.com/docs/tools-reference/linux-users-and-groups) to get the theoretical view of how Linux is handling files, directories, users and permissions
