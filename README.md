@@ -40,7 +40,7 @@ The student should get an understanding of the Linux system and its characterist
 ## Introduction to Bash scripting
   * A short introduction - [Video](https://www.youtube.com/watch?v=aGQQBefu5Uc)
   * A simple example of a script - [Video](https://www.youtube.com/watch?v=H1b9dVDz2TE&feature=youtu.be)
-  * Some idéas for exercise scripts - [Text](./bash-exercise.md)
+  * Some idéas for exercise scripts - [Text](./bash-exercise.md)
 
 ### Resources for bash
   The net is full of different pages about bash scripting. A good start is the three links below. Since you all know about programming; what a selection statement and a loop is for example we are more into studying the syntax. Especially the "part 1" and "part 2" is good for this. The third part have some good examples of bash scripts though. Start by reading these guides.
