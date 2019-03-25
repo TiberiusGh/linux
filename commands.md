@@ -52,7 +52,7 @@ Of course you could pipe several times. The above command uses "ps" to list all 
 
 The **standard error (stderr)** is where eventual error messages are sent to.
 
-The stdin, stdout and stderr are known as **file descriptors**. So when a program is executed these three file descriptors opens. 0 for stdin, 1 for stdout and 3 for stderr. We can use this with **redirection operators**. Here are some examples.
+The stdin, stdout and stderr are known as **file descriptors**. So when a program is executed these three file descriptors opens. 0 for stdin, 1 for stdout and 2 for stderr. We can use this with **redirection operators**. Here are some examples.
 
 ```bash
 # writes the output of the /proc/cpuinfo into a file named cpu.txt
