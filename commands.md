@@ -14,7 +14,7 @@ There are different types of shells in the Linux/Unix-world.
 
 - Bourne Shell (sh) - Developed at AT&T (Bell Laboratories). This is one of the oldest shell and where the name "shell" is from.
 - Korn Shell (ksh), Almquist shell (ash), C-Shell (csh) are different kind of shells that all are different clones of the bourne shell.
-- Bourne-Again Shell (bash) os the GNU-projects implementation and an extended version of the Bourne Shell. This is the most common shell and default on most systems.
+- Bourne-Again Shell (bash) is the GNU-projects implementation and an extended version of the Bourne Shell. This is the most common shell and default on most systems.
 - Z Shell (zsh) - contains a lot of the same features as bash but with a few difference like file globbing and spelling correction.
 
 ### Bash-files
