@@ -1,4 +1,4 @@
-# Linux
+## Linux learning object
 
 This is a learning objective about Linux, from [Linnaeus University](http://lnu.se), Kalmar, Sweden.
 This work i licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
