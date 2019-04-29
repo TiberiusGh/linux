@@ -25,7 +25,7 @@ docker run -it centos /bin/bash   # runs and starts a centos container
 ```
 
 ### The shell
-[This text document](./commands.md) gives an introduction to a linux systems shell. It will also link to a Cheat Sheet with different commands you should study. At the end of the text there are some exercises to practice on.
+[This text document](https://github.com/CS-LNU-Learning-Objects/linux/blob/master/commands.md) gives an introduction to a linux systems shell. It will also link to a Cheat Sheet with different commands you should study. At the end of the text there are some exercises to practice on.
 
 ### Using the terminal, text editors
 [Video on youtube](https://www.youtube.com/watch?v=623APOnLtJE) - Showing how to work with the shell and some of its text editors
@@ -45,7 +45,7 @@ docker run -it centos /bin/bash   # runs and starts a centos container
 ### Introduction to Bash scripting
   * A short introduction - [Video](https://www.youtube.com/watch?v=aGQQBefu5Uc)
   * A simple example of a script - [Video](https://www.youtube.com/watch?v=H1b9dVDz2TE&feature=youtu.be)
-  * Some ideas for exercise scripts - [Text](./bash-exercise.md)
+  * Some ideas for exercise scripts - [Text](https://github.com/CS-LNU-Learning-Objects/linux/blob/master/bash-exercise.md)
 
 #### Resources for bash
   The net is full of different pages about bash scripting. A good start is the three links below. Since you all know about programming; what a selection statement and a loop is for example we are more into studying the syntax. Especially the "part 1" and "part 2" is good for this. The third part have some good examples of bash scripts though. Start by reading these guides.
