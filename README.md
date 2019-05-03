@@ -25,7 +25,7 @@ docker run -it centos /bin/bash   # runs and starts a centos container
 ```
 
 ### The shell
-[This text document](https://github.com/CS-LNU-Learning-Objects/linux/blob/master/commands.md) gives an introduction to a linux systems shell. It will also link to a Cheat Sheet with different commands you should study. At the end of the text there are some exercises to practice on.
+[This text document](https://github.com/CS-LNU-Learning-Objects/linux/blob/master/commands.md)) gives an introduction to a linux systems shell. It will also link to a Cheat Sheet with different commands you should study. At the end of the text there are some exercises to practice on.
 
 ### Using the terminal, text editors
 [Video on youtube](https://www.youtube.com/watch?v=623APOnLtJE) - Showing how to work with the shell and some of its text editors
