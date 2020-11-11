@@ -1,5 +1,5 @@
 This is a learning objective about Linux, from [Linnaeus University](http://lnu.se), Kalmar, Sweden.
-This work i licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
+This work is licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)
 
 This work is intended for the students in the [UDM - Utvecklare och drift av mjukvarusystem](https://coursepress.lnu.se/program/utveckling-och-drift-av-mjukvarusystem/student/) and the [WP - Webbprogrammerare](http://webbprogrammerare.se) programs.
 This is not a complete course in Linux but just an introduction for program students at [Linnaeus University](www.lnu.se), Kalmar, Sweden
@@ -14,16 +14,22 @@ The student should get an understanding of the Linux system and its characterist
 ## About this learning object
 [Video on youtube](https://www.youtube.com/watch?v=Cb5ij5VMyzk) - Explains this learning object
 
-### Linux - an introduction ([slides](https://rawgit.com/CS-LNU-Learning-Objects/linux/master/slides/introduction.html))
-[Video on youtube](https://www.youtube.com/watch?v=K81c6R2COmI) - A short introduction to Linux, it's history and use today
-In the video I use [Vagrant](https://www.vagrantup.com/) and [Virtual box](https://www.virtualbox.org/) for running virtual machines with Ubuntu and CentOS. If you have docker installed and running you could start use these commands to start up instances:
+### Linux - an introduction 
+
+[Video on youtube](https://www.youtube.com/watch?v=K81c6R2COmI) - A short introduction to Linux, it's history and use today ([Slides](https://rawgit.com/CS-LNU-Learning-Objects/linux/master/slides/introduction.html))
+
+In the video [Vagrant](https://www.vagrantup.com/) and [Virtual box](https://www.virtualbox.org/) are used for running virtual machines with Ubuntu and CentOS. 
+
+If you have docker installed and running you could start use these commands to start up instances:
 ```bash
 docker run -it ubuntu /bin/bash   # runs and starts a ubuntu container
 docker run -it centos /bin/bash   # runs and starts a centos container
 ```
 
+If you do not have Docker installed, this is a perfect time to install it. You find Docker Desktop at [https://www.docker.com/get-started](https://www.docker.com/get-started)
+
 ### The shell
-[This text document](https://github.com/CS-LNU-Learning-Objects/linux/blob/master/commands.md)) gives an introduction to a linux systems shell. It will also link to a Cheat Sheet with different commands you should study. At the end of the text there are some exercises to practice on.
+[This text document](https://github.com/CS-LNU-Learning-Objects/linux/blob/master/commands.md)) gives an introduction to a Linux system shell. It will also link to a Cheat Sheet with different commands you should study. At the end of the text there are some exercises to practice on.
 
 ### Using the terminal, text editors
 [Video on youtube](https://www.youtube.com/watch?v=623APOnLtJE) - Showing how to work with the shell and some of its text editors
@@ -71,6 +77,8 @@ To get a deeper understanding and get a searchable pdf during this learning obje
 ## Feel free to contribute
 This content can always have higher quality. Help us to make it better. Fork it!
 Make pull requests! All can help!
+
+[Repository](https://github.com/CS-LNU-Learning-Objects/linux)
 
 ## Contact
 Contact us through GitHub
