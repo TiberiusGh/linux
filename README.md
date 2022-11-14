@@ -54,10 +54,9 @@ If you do not have Docker installed, this is a perfect time to install it. You f
 #### Resources for bash
   The net is full of different pages about bash scripting. A good start is the three links below. Since you all know about programming; what a selection statement and a loop is for example we are more into studying the syntax. Especially the "part 1" and "part 2" is good for this. The third part have some good examples of bash scripts though. Start by reading these guides.
 * Bash programming tutorial from developer
-  * [Part 1](http://www.ibm.com/developerworks/library/l-bash/)
-  * [Part 2](http://www.ibm.com/developerworks/library/l-bash2/)
-  * [Part 3](http://www.ibm.com/developerworks/library/l-bash3/)
-
+  * [Part 1](https://www.funtoo.org/Bash_by_Example,_Part_1)
+  * [Part 2](https://www.funtoo.org/Bash_by_Example,_Part_2)
+  * [Part 3](https://www.funtoo.org/Bash_by_Example,_Part_3)
 
  There is much more to learn if you want. Here are some extra resources. It could also come in handy to have a reference page when you have to look up stuff.
   * [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html) <- for references use
