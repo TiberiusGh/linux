@@ -70,7 +70,7 @@ If you do not have Docker installed, this is a perfect time to install it. You f
  There is much more to learn if you want. Here are some extra resources. It could also come in handy to have a reference page when you have to look up stuff.
 
   * [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html) <- for references use
-  * [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
+  * [Bash Guide for Beginners](https://web.archive.org/web/20230624030500/https://www.howtogeek.com/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
 
   * [Bash programming introduction (from 2000)](http://en.tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
   * [Advanced Bash Scripting Guide](http://www.tldp.org/LDP/abs/html/)
